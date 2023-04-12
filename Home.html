@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online</title>
+    <link rel="stylesheet" href="CSS\main.css">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="CSS\images\logo.png" alt="logo" id="image"></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="Carrito.html">Carrito</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="productos">
+        <h2>Productos</h2>
+        <ul>
+          <li>
+            <h3>Producto 1</h3>
+            <img src="CSS\images\menu-1.jpg" alt="Producto 1">
+            <p>Descripción del producto 1</p>
+            <form>
+              <label for="cantidad-producto1">Cantidad:</label>
+              <input type="number" id="cantidad-producto1" name="cantidad-producto1" min="1" max="10" value="1">
+              <button type="submit">Agregar al carrito</button>
+            </form>
+          </li>
+          <li>
+            <h3>Producto 2</h3>
+            <img src="CSS\images\menu-2.jpg" alt="Producto 2">
+            <p>Descripción del producto 2</p>
+            <form>
+              <label for="cantidad-producto2">Cantidad:</label>
+              <input type="number" id="cantidad-producto2" name="cantidad-producto2" min="1" max="10" value="1">
+              <button type="submit">Agregar al carrito</button>
+            </form>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos de autor © 2023 Tienda online</p>
+    </footer>
+  </body>
+</html>
